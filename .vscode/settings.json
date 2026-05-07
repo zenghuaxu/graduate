@@ -1,0 +1,78 @@
+{
+  "latex-workshop.showContextMenu": true,
+  "latex-workshop.latex.recipe.default": "latexmk (auto bib)",
+  "latex-workshop.latex.build.forceRecipeUsage": true,
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.autoBuild.interval": 1000,
+  "latex-workshop.latex.autoBuild.clean": false,
+  "latex-workshop.message.error.show": true,
+  "latex-workshop.message.warning.show": true,
+  "latex-workshop.latex.outDir": "tmp",
+  "latex-workshop.latex.rootFile.useSubFile": false,
+  "latex-workshop.latex.rootFile.doNotPrompt": true,
+  "latex-workshop.latex.rootFile": "main.tex",
+  "latex-workshop.message.latexlog.exclude": "^Warning",
+  "latex-workshop.message.badbox.show": false,
+  "latex-workshop.latex.tools": [
+    {
+      "name": "xelatex",
+      "command": "powershell",
+      "env": {},
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "%DIR%\\build-wrapper.ps1",
+        "%DOCFILE%"
+      ]
+    },
+    {
+      "name": "pdflatex",
+      "command": "powershell",
+      "env": {},
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "%DIR%\\build-wrapper.ps1",
+        "%DOCFILE%"
+      ]
+    },
+    {
+      "name": "latexmk",
+      "command": "powershell",
+      "env": {},
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "%DIR%\\build-wrapper.ps1",
+        "%DOCFILE%"
+      ]
+    },
+    {
+      "name": "latexmk-xelatex",
+      "command": "powershell",
+      "env": {},
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "%DIR%\\build-wrapper.ps1",
+        "%DOCFILE%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (auto bib)",
+      "tools": [
+        "latexmk-xelatex"
+      ]
+    }
+  ]
+}
