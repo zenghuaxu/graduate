@@ -79,6 +79,13 @@ try {
     }
     & latexmk.exe -pdf -xelatex -outdir=tmp -synctex=1 -interaction=nonstopmode -file-line-error "$base"
     $code = $LASTEXITCODE
+    if ($code -eq 0) {
+      $pdfName = [System.IO.Path]::ChangeExtension($base, ".pdf")
+      $tmpPdf = Join-Path ".\tmp" $pdfName
+      if (Test-Path -LiteralPath $tmpPdf) {
+        Copy-Item -LiteralPath $tmpPdf -Destination ".\$pdfName" -Force
+      }
+    }
     Add-Content -Path $logFile -Value ("[{0}] Build end. drive={1} exit={2}" -f (Get-Date -Format s), $buildDrive, $code)
     exit $code
   } finally {
