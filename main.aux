@@ -1,0 +1,118 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\@input{data/com_info.aux}
+\@input{data/bachelor/bachelor_info.aux}
+\HyPL@Entry{0<</S/D>>}
+\@writefile{lof}{\noaddvspace }
+\@writefile{lot}{\noaddvspace }
+\HyPL@Entry{1<</S/D>>}
+\@input{data/abstract.aux}
+\HyPL@Entry{4<</S/R>>}
+\citation{vaswani2017attention}
+\citation{kaplan2020scaling}
+\citation{brown2020gpt3,llama3herd2024}
+\citation{meta_llama31_blog}
+\HyPL@Entry{8<</S/D>>}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1\hspace  {.3em}}绪论}{1}{chapter.1}\protected@file@percent }
+\@writefile{lof}{\addvspace {10.0pt}}
+\@writefile{lot}{\addvspace {10.0pt}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}选题背景与研究意义}{1}{section.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces 模型参数量增长速度和 HBM 容量增长速度对比}}{2}{figure.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:time-compare}{{1.1}{2}{模型参数量增长速度和 HBM 容量增长速度对比}{figure.caption.2}{}}
+\citation{sapio2021switchml}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}国内外研究现状}{3}{section.1.2}\protected@file@percent }
+\citation{rajbhandari2020zero}
+\citation{huang2019gpipe,harlap2019pipedream}
+\citation{liu2024ringattention}
+\citation{shoeybi2019megatron,narayanan2021megatron}
+\citation{ren2021zerooffload}
+\citation{rajbhandari2021zeroinfinity}
+\citation{rasley2020deepspeed}
+\citation{liao2024lohan,yin2025greedysnake}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}研究目标和内容}{6}{section.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}本文组织架构}{8}{section.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {2\hspace  {.3em}}相关技术基础}{9}{chapter.2}\protected@file@percent }
+\@writefile{lof}{\addvspace {10.0pt}}
+\@writefile{lot}{\addvspace {10.0pt}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}大模型微调的负载和存储占用}{9}{section.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}大模型微调技术}{9}{subsection.2.1.1}\protected@file@percent }
+\citation{hu2021lora}
+\citation{biderman2024loralearnsless}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}大模型微调存储占用模型}{11}{subsection.2.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}大模型微调的存算调度技术}{12}{section.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}分布式并行策略}{12}{subsection.2.2.1}\protected@file@percent }
+\citation{huang2019gpipe}
+\citation{narayanan2019pipedream}
+\citation{chen2016sublinear}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}重计算技术}{13}{subsection.2.2.2}\protected@file@percent }
+\citation{dao2022flashattention}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}异构存储与卸载技术}{14}{subsection.2.2.3}\protected@file@percent }
+\citation{dao2022flashattention}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3\hspace  {.3em}}系统设计}{17}{chapter.3}\protected@file@percent }
+\@writefile{lof}{\addvspace {10.0pt}}
+\@writefile{lot}{\addvspace {10.0pt}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}存算调度系统的设计分析}{17}{section.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces 估计单层前向计算时间和数据传输时间对比}}{19}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:time-compare}{{3.1}{19}{估计单层前向计算时间和数据传输时间对比}{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}多级存储架构总体设计}{19}{section.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces 系统整体设计}}{20}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:sys-overall-design}{{3.2}{20}{系统整体设计}{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}计算与 I/O 流水线设计}{21}{section.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces 前向反向传播计算-数据传输流水线}}{21}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:npu-cpu-pipeline}{{3.3}{21}{前向反向传播计算-数据传输流水线}{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces 优化器阶段计算IO流水线}}{22}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:optimizer-io-pipeline}{{3.4}{22}{优化器阶段计算IO流水线}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}NPU HBM 管理与缓冲调度}{22}{section.3.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces NPU HBM 管理示意图}}{23}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:npu-slot-mgmt}{{3.5}{23}{NPU HBM 管理示意图}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}主机共享内存管理}{23}{section.3.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces CPU 共享内存管理}}{24}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:cpu-shared-mem}{{3.6}{24}{CPU 共享内存管理}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4\hspace  {.3em}}系统实现}{26}{chapter.4}\protected@file@percent }
+\@writefile{lof}{\addvspace {10.0pt}}
+\@writefile{lot}{\addvspace {10.0pt}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}系统架构}{26}{section.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 系统实现架构图}}{26}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:impl-arch}{{4.1}{26}{系统实现架构图}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}基于 pytorch hook 机制的卸载管理}{27}{section.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}基于事件的流同步与并行策略兼容实现}{28}{section.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}基于设备侧注册的主机内存实现}{28}{section.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}面向鲲鹏平台的 CPU kernel 实现}{29}{section.4.5}\protected@file@percent }
+\citation{paszke2019pytorch,shoeybi2019megatron,rasley2020deepspeed}
+\citation{qwen25techreport,zeng2022glm130b}
+\citation{shoeybi2019megatron,ren2021zerooffload,rajbhandari2021zeroinfinity}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5\hspace  {.3em}}实验结果与分析}{31}{chapter.5}\protected@file@percent }
+\@writefile{lof}{\addvspace {10.0pt}}
+\@writefile{lot}{\addvspace {10.0pt}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}实验环境和软硬件配置}{31}{section.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces 实验硬件配置}}{31}{table.caption.10}\protected@file@percent }
+\newlabel{tab:hw}{{5.1}{31}{实验硬件配置}{table.caption.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces 实验软件配置}}{31}{table.caption.11}\protected@file@percent }
+\newlabel{tab:sw}{{5.2}{31}{实验软件配置}{table.caption.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces 实验涉及模型结构配置}}{32}{table.caption.12}\protected@file@percent }
+\newlabel{tab:model}{{5.3}{32}{实验涉及模型结构配置}{table.caption.12}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.4}{\ignorespaces 对比系统配置}}{32}{table.caption.13}\protected@file@percent }
+\newlabel{tab:baseline}{{5.4}{32}{对比系统配置}{table.caption.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.5}{\ignorespaces 实验通用配置}}{32}{table.caption.14}\protected@file@percent }
+\newlabel{tab:exp}{{5.5}{32}{实验通用配置}{table.caption.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}微调规模}{32}{section.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces 实验范围内单卡最大微调参数量对比}}{33}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:max-trainable-params}{{5.1}{33}{实验范围内单卡最大微调参数量对比}{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}性能}{33}{section.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces 实验范围内单卡最大微调微批次大小对比}}{34}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:max-trainable-mbs}{{5.2}{34}{实验范围内单卡最大微调微批次大小对比}{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces 单卡微调不同系统和参数量吞吐量对比}}{35}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:single-throughput}{{5.3}{35}{单卡微调不同系统和参数量吞吐量对比}{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces 不同系统微调单节点 72B 模型吞吐量对比}}{35}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:node72-throughput}{{5.4}{35}{不同系统微调单节点 72B 模型吞吐量对比}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces 不同系统微调单节点 130B 模型吞吐量对比}}{36}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:node130-throughput}{{5.5}{36}{不同系统微调单节点 130B 模型吞吐量对比}{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}消融实验}{36}{section.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}优化器}{36}{subsection.5.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces 不同系统单轮优化器吞吐量}}{37}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:opt-time}{{5.6}{37}{不同系统单轮优化器吞吐量}{figure.caption.20}{}}
+\@input{data/reference.aux}
+\ttl@finishall
+\gdef \@abspage@last{48}

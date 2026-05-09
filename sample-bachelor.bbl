@@ -1,0 +1,150 @@
+\begin{thebibliography}{25}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}\else
+  \providecommand\doi[1]{\href{https://doi.org/#1}{\nolinkurl{#1}}}\fi
+
+\bibitem[Kottwitz(2011)]{kottwitz2011latex}
+KOTTWITZ~S.
+\newblock Latex beginner's guide\allowbreak[M/OL].
+\newblock Packt Publishing, 2011.
+\newblock \url{http://books.google.com.hk/books?id=rB1Cb62dVnUC}.
+
+\bibitem[Acharya et~al.(1999)Acharya and Setia]{idlemem}
+ACHARYA~A, SETIA~S.
+\newblock Availability and utility of idle memory in workstation clusters\allowbreak[J].
+\newblock ACM SIGMETRICS Performance Evaluation Review, 1999.
+
+\bibitem[Anderson et~al.(1994)Anderson and Neefe]{sigsegv}
+ANDERSON~E~A, NEEFE~J~M.
+\newblock An exploration of network ram: CSD-98-1000\allowbreak[R].
+\newblock [S.l.]: UC Berkley, 1994.
+
+\bibitem[Boden et~al.(1995)Boden, Cohen, Felderman, Kulawik, Seitz, Seizovic, and Su]{Myrinet}
+BODEN~N, COHEN~D, FELDERMAN~R, et~al.
+\newblock Myrinet: A gigabit-per-second local area network\allowbreak[J].
+\newblock IEEE Micro, 1995, 15\penalty0 (1):\penalty0 29-36.
+
+\bibitem[Bovet et~al.(2005)Bovet and Cesati]{ulk3rd}
+BOVET~D~P, CESATI~M.
+\newblock Understanding the linux kernel\allowbreak[M].
+\newblock 3rd ed.
+\newblock [S.l.]: O'{\MakeUppercase{R}}eilly, 2005.
+
+\bibitem[Corbet et~al.(2005)Corbet, Rubini, and Kroah-Hartman]{ldd3rd}
+CORBET~J, RUBINI~A, KROAH-HARTMAN~G.
+\newblock Linux device drivers\allowbreak[M].
+\newblock 3rd ed.
+\newblock [S.l.]: O'{\MakeUppercase{R}}eilly, 2005.
+
+\bibitem[Feeley et~al.(1995)Feeley, Morgan, Pighin, Karlin, Levy, and Thekkath]{GMM}
+FEELEY~M~J, MORGAN~W~E, PIGHIN~F~H, et~al.
+\newblock Implementing global memory management in a workstation cluster\allowbreak[J].
+\newblock ACM SIGOPS Operating Systems Review, 1995:\penalty0 201-212.
+
+\bibitem[Flouris et~al.(1999)Flouris and Markatos]{nrd}
+FLOURIS~M~D, MARKATOS~E~P.
+\newblock The network ramdisk: Using remote memory on heterogeneous nows\allowbreak[J].
+\newblock Cluster Computing, 1999, 2\penalty0 (4):\penalty0 281-293.
+
+\bibitem[Frankling et~al.(1992)Frankling, Carey, and Livny]{1992GMM}
+FRANKLING~M~J, CAREY~M~J, LIVNY~M.
+\newblock Globla memory management in client-server dbms architectures\allowbreak[C]//\allowbreak
+Proceeding of the 18th VLDB Conference.
+\newblock [S.l.: s.n.], 1992.
+
+\bibitem[Han et~al.(2005)Han, Zhou, He, and Gao]{iSCSIIOprof}
+HAN~J, ZHOU~D, HE~X, et~al.
+\newblock I/{\MakeUppercase{o}} profiling for distributed ip storage systems\allowbreak[C]//\allowbreak
+Proceeding of The Second International Conference on Embedded Software and Systems.
+\newblock [S.l.: s.n.], 2005.
+
+\bibitem[He et~al.(2002)He, Yang, and Zhang]{icache1}
+HE~X, YANG~Q, ZHANG~M.
+\newblock A caching strategy to improve iscsi performance\allowbreak[C]//\allowbreak
+Proceeding of Local Computer Networks.
+\newblock [S.l.: s.n.], 2002.
+
+\bibitem[Hines et~al.(2003)Hines, Lewandowski, and Gopalan]{NFS}
+HINES~M~R, LEWANDOWSKI~M, GOPALAN~K.
+\newblock Anemone: Adaptive network memory engine\allowbreak[D].
+\newblock [S.l.]: Florida State University, 2003.
+
+\bibitem[Iftode et~al.(1993)Iftode, Li, and Petersen]{memserver}
+IFTODE~L, LI~K, PETERSEN~K.
+\newblock Memory servers for multicomputers\allowbreak[C]//\allowbreak
+Proceeding of the IEEE Spring COMPCON 93.
+\newblock [S.l.: s.n.], 1993: 538-547.
+
+\bibitem[Koussih et~al.(1999)Koussih and A.~Acharyam]{dodo}
+KOUSSIH~S, A.~ACHARYAM~S~S.
+\newblock Dodo:a user-level system for exploiting idle memory in workstation clusters\allowbreak[C]//\allowbreak
+Proceeding of the Eighth IEEE International Symposium on High Performance Distributed Computing.
+\newblock [S.l.: s.n.], 1999.
+
+\bibitem[Liang et~al.(2005)Liang, Notonha, and Panda]{HPBD}
+LIANG~S, NOTONHA~R, PANDA~D~K.
+\newblock Swapping to remote memory over infiniband: An approach using a high performance network block device\allowbreak[J].
+\newblock IEEE Cluster Computing, 2005.
+
+\bibitem[Love(2005)]{lkd2nd}
+LOVE~R.
+\newblock Linux kernel development\allowbreak[M].
+\newblock 2nd ed.
+\newblock [S.l.]: Sams Publishing, 2005.
+
+\bibitem[Markatos et~al.(1996)Markatos and Dramitions]{rrmp}
+MARKATOS~E~P, DRAMITIONS~G.
+\newblock Implementation of a reliable remote memory pager\allowbreak[C]//\allowbreak
+Proceeding of the 1996 Usenix Technical Conference.
+\newblock [S.l.: s.n.], 1996.
+
+\bibitem[McCalpin()]{stream}
+MCCALPIN~J.
+\newblock Streambenchmark\allowbreak[EB/OL].
+\newblock \url{http://www.streambench.org}.
+
+\bibitem[Newhall et~al.(2003)Newhall, Finney, Ganchevm, and Spiegel]{Nswap}
+NEWHALL~T, FINNEY~S, GANCHEVM~K, et~al.
+\newblock Nswap:a network swapping module for linux clusters\allowbreak[C]//\allowbreak
+Proceeding of Euro-Par'03 International Conference on Parallel and Distributed Computing.
+\newblock Klagenfurt, Austria: [s.n.], 2003.
+
+\bibitem[Oleszkiewicz et~al.(2004)Oleszkiewicz, Xiao, and Liu]{manager}
+OLESZKIEWICZ~J, XIAO~L, LIU~Y.
+\newblock Parallel network ram: Effectively utilizing global cluster memory for large data-intensive parallel programs\allowbreak[C]//\allowbreak
+Proceeding of International Conference on Parallel Proceeding.
+\newblock [S.l.: s.n.], 2004: 577-592.
+
+\bibitem[Petrini et~al.(2003)Petrini, Frachtenberg, Hoisie, and Coll]{Quadrics}
+PETRINI~F, FRACHTENBERG~E, HOISIE~A, et~al.
+\newblock Performance evaluation of the quadrics interconnection network\allowbreak[J].
+\newblock Journal of Cluster Computing, 2003, 6\penalty0 (2):\penalty0 125-142.
+
+\bibitem[Sun et~al.(2005)Sun, Chen, and Fan]{NBD}
+SUN~H~T, CHEN~M, FAN~J.
+\newblock A scalable dynamic network memory service system\allowbreak[C]//\allowbreak
+Proceeding of High-Performance Computing in Asia-Pacific Region.
+\newblock [S.l.: s.n.], 2005.
+
+\bibitem[Trevisan et~al.(2002)Trevisan, Costal, Whately, and Amorim]{VMA}
+TREVISAN~T~S, COSTAL~V~S, WHATELY~L, et~al.
+\newblock Distributed shared memory in kernel mode\allowbreak[C]//\allowbreak
+Proceeding of Computer Architecture and High Performance Computing.
+\newblock [S.l.: s.n.], 2002.
+
+\bibitem[Xiao et~al.(2004)Xiao, Chen, and Zhang]{bigmem}
+XIAO~L, CHEN~S, ZHANG~X.
+\newblock Adaptive memory allocations in clusters to handle unexpctedly large data-intensive jobs\allowbreak[J].
+\newblock IEEE Transactions on Parallel and Distributed Systems, 2004, 15\penalty0 (6):\penalty0 577-592.
+
+\bibitem[ITA()]{IB}
+ITA.
+\newblock The infiniband architecture\allowbreak[EB/OL].
+\newblock InfiniBand Trade Association.
+\newblock \url{http://www.infinibandta.org/spec}.
+
+\end{thebibliography}
