@@ -10,45 +10,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: data/bibs.bib
 Warning--I didn't find a database entry for "narayanan2019pipedream"
-You've used 25 entries,
+You've used 26 entries,
             4281 wiz_defined-function locations,
-            1020 strings with 13245 characters,
-and the built_in function-call counts, 219995 in all, are:
-= -- 3596
-> -- 26880
-< -- 32700
-+ -- 8844
-- -- 2102
-* -- 1009
-:= -- 30355
-add.period$ -- 87
-call.type$ -- 25
-change.case$ -- 50
-chr.to.int$ -- 8081
-cite$ -- 25
-duplicate$ -- 496
-empty$ -- 1247
-format.name$ -- 622
-if$ -- 56873
+            1025 strings with 13475 characters,
+and the built_in function-call counts, 226985 in all, are:
+= -- 3710
+> -- 27728
+< -- 33742
++ -- 9125
+- -- 2159
+* -- 1045
+:= -- 31318
+add.period$ -- 91
+call.type$ -- 26
+change.case$ -- 52
+chr.to.int$ -- 8339
+cite$ -- 26
+duplicate$ -- 515
+empty$ -- 1288
+format.name$ -- 642
+if$ -- 58680
 int.to.chr$ -- 1
-int.to.str$ -- 26
+int.to.str$ -- 27
 missing$ -- 0
-newline$ -- 159
-num.names$ -- 75
-pop$ -- 11438
+newline$ -- 165
+num.names$ -- 78
+pop$ -- 11813
 preamble$ -- 1
-purify$ -- 25
+purify$ -- 26
 quote$ -- 0
-skip$ -- 23628
+skip$ -- 24369
 stack$ -- 0
-substring$ -- 10160
-swap$ -- 90
-text.length$ -- 353
+substring$ -- 10474
+swap$ -- 94
+text.length$ -- 364
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 301
+type$ -- 314
 warning$ -- 0
-while$ -- 403
+while$ -- 416
 width$ -- 0
-write$ -- 343
+write$ -- 357
 (There was 1 warning)

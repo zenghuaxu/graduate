@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.3)  9 MAY 2026 17:17
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.3)  10 MAY 2026 14:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1403,7 +1403,7 @@ File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
  [13]
 
-Package natbib Warning: Citation `narayanan2019pipedream' on page 14 undefined on input line 627.
+Package natbib Warning: Citation `narayanan2019pipedream' on page 14 undefined on input line 629.
 
 File: figure/grad_checkpointing.png Graphic file (type bmp)
 <figure/grad_checkpointing.png>
@@ -1413,55 +1413,60 @@ File: figure/buaamark.pdf Graphic file (type pdf)
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
  [15]
+File: figure/offload_hierarchy.png Graphic file (type bmp)
+<figure/offload_hierarchy.png>
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
  [16]
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
  [17]
+File: figure/buaamark.pdf Graphic file (type pdf)
+<use figure/buaamark.pdf>
+ [18]
 3
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
-[18
+[19
 
 ]
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [19]
+ [20]
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [20]
+ [21]
 File: figure/theoretical.png Graphic file (type bmp)
 <figure/theoretical.png>
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [21]
+ [22]
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [22]
+ [23]
 File: figure/design.png Graphic file (type bmp)
 <figure/design.png>
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [23]
+ [24]
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [24]
+ [25]
 File: figure/NPU_pipeline.png Graphic file (type bmp)
 <figure/NPU_pipeline.png>
 File: figure/optim_pipeline.png Graphic file (type bmp)
 <figure/optim_pipeline.png>
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [25]
+ [26]
 File: figure/NPU_slot.png Graphic file (type bmp)
 <figure/NPU_slot.png>
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [26]
+ [27]
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [27]
+ [28]
 File: figure/share_mem_manager.png Graphic file (type bmp)
 <figure/share_mem_manager.png>
 
@@ -1479,12 +1484,12 @@ Package fontspec Info:
 (fontspec)             Could not resolve font "FangSong/I" (it probably
 (fontspec)             doesn't exist).
 
-LaTeX Font Info:    Trying to load font information for TU+txtt on input line 1417.
-LaTeX Font Info:    No file TUtxtt.fd. on input line 1417.
+LaTeX Font Info:    Trying to load font information for TU+txtt on input line 1453.
+LaTeX Font Info:    No file TUtxtt.fd. on input line 1453.
 
 
 LaTeX Font Warning: Font shape `TU/txtt/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 1417.
+(Font)              using `TU/lmr/m/n' instead on input line 1453.
 
 
 Package fontspec Info: 
@@ -1501,33 +1506,30 @@ Package fontspec Info:
 
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
-[28]
+[29]
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [29]
+ [30]
 4
 File: figure/soft_design.png Graphic file (type bmp)
 <figure/soft_design.png>
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
-[30
+[31
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1527--1528
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1564
 []|\TU/txtt/m/n/10.53937 register_-full_-backward_-pre_-
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 1531--1532
+Underfull \hbox (badness 2726) in paragraph at lines 1567--1568
 []|\TU/txtt/m/n/10.53937 hook(module, grad_-in-
  []
 
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
-[31]
-File: figure/buaamark.pdf Graphic file (type pdf)
-<use figure/buaamark.pdf>
- [32]
+[32]
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
  [33]
@@ -1543,62 +1545,65 @@ File: figure/buaamark.pdf Graphic file (type pdf)
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
  [37]
+File: figure/buaamark.pdf Graphic file (type pdf)
+<use figure/buaamark.pdf>
+ [38]
 5
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
-[38
+[39
 
 ]
-Overfull \hbox (127.81264pt too wide) in paragraph at lines 1924--1935
+Overfull \hbox (127.81264pt too wide) in paragraph at lines 1960--1971
  [][] 
  []
 
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
-[39]
+[40]
 File: figure/max_tranable_single.png Graphic file (type bmp)
 <figure/max_tranable_single.png>
 File: figure/max_trainable_bs_single.png Graphic file (type bmp)
 <figure/max_trainable_bs_single.png>
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [40]
+ [41]
 File: figure/single_throughput.png Graphic file (type bmp)
 <figure/single_throughput.png>
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [41]
+ [42]
 File: figure/72B_node_throughput.png Graphic file (type bmp)
 <figure/72B_node_throughput.png>
 File: figure/130B_node_throughput.png Graphic file (type bmp)
 <figure/130B_node_throughput.png>
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [42]
+ [43]
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [43]
+ [44]
 File: figure/optim_throughput.png Graphic file (type bmp)
 <figure/optim_throughput.png>
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [44]
+ [45]
 \openout2 = `data/reference.aux'.
 
  (./data/reference.tex (tmp/main.bbl
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [45
+ [46
 
 
 
 ]
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [46])
+ [47])
 File: figure/buaamark.pdf Graphic file (type pdf)
 <use figure/buaamark.pdf>
- [47])
+ [48])
 \tf@thm=\write5
 \openout5 = `main.thm'.
 
@@ -1620,15 +1625,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 34BCB6900C53773FB148CDB7B2D48DFA;5395.
+(rerunfilecheck)             Checksum: 5024938F27CF59FA816A2EBFEC2538B6;5395.
  ) 
 Here is how much of TeX's memory you used:
- 23338 strings out of 467992
- 486622 string characters out of 5433178
- 913834 words of memory out of 5000000
- 51753 multiletter control sequences out of 15000+600000
+ 23387 strings out of 467992
+ 489368 string characters out of 5433178
+ 913965 words of memory out of 5000000
+ 51801 multiletter control sequences out of 15000+600000
  666200 words of font info for 224 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  106i,15n,125p,1195b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on tmp/main.xdv (55 pages, 813880 bytes).
+Output written on tmp/main.xdv (56 pages, 830448 bytes).

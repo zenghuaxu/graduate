@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{26}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -7,19 +7,22 @@
   \DeclareUrlCommand\doi{\urlstyle{rm}}\else
   \providecommand\doi[1]{\href{https://doi.org/#1}{\nolinkurl{#1}}}\fi
 
-\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, and Polosukhin]{vaswani2017attention}
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017attention}
 Vaswani~A, Shazeer~N, Parmar~N, et~al.
 \newblock Attention is all you need\allowbreak[C]//\allowbreak
 Advances in Neural Information Processing Systems.
 \newblock Red Hook, NY, USA: Curran Associates, Inc., 2017.
 
-\bibitem[Kaplan et~al.(2020)Kaplan, McCandlish, Henighan, Brown, Chess, Child, Gray, Radford, Wu, and Amodei]{kaplan2020scaling}
+\bibitem[Kaplan et~al.(2020)Kaplan, McCandlish, Henighan, Brown, Chess, Child,
+  Gray, Radford, Wu, and Amodei]{kaplan2020scaling}
 Kaplan~J, McCandlish~S, Henighan~T, et~al.
 \newblock Scaling laws for neural language models\allowbreak[J/OL].
 \newblock arXiv preprint arXiv:2001.08361, 2020.
 \newblock \url{https://arxiv.org/abs/2001.08361}.
 
-\bibitem[Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal, Neelakantan, Shyam, Sastry, Askell, et~al.]{brown2020gpt3}
+\bibitem[Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal,
+  Neelakantan, Shyam, Sastry, Askell, et~al.]{brown2020gpt3}
 Brown~T~B, Mann~B, Ryder~N, et~al.
 \newblock Language models are few-shot learners\allowbreak[C]//\allowbreak
 Advances in Neural Information Processing Systems.
@@ -33,89 +36,119 @@ Grattafiori~A, Dubey~A, et~al.
 
 \bibitem[{Meta AI}(2024)]{meta_llama31_blog}
 {Meta AI}.
-\newblock Introducing llama 3.1: Our most capable models to date\allowbreak[EB/OL].
+\newblock Introducing llama 3.1: Our most capable models to
+  date\allowbreak[EB/OL].
 \newblock 2024.
 \newblock \url{https://ai.meta.com/blog/meta-llama-3-1/}.
 
-\bibitem[Sapio et~al.(2021)Sapio, Canini, Ho, Nelson, Kalnis, Kim, Krishnamurthy, Moshref, Ports, and Richtarik]{sapio2021switchml}
+\bibitem[Sapio et~al.(2021)Sapio, Canini, Ho, Nelson, Kalnis, Kim,
+  Krishnamurthy, Moshref, Ports, and Richtarik]{sapio2021switchml}
 Sapio~A, Canini~M, Ho~C~Y, et~al.
-\newblock Scaling distributed machine learning with in-network aggregation\allowbreak[C]//\allowbreak
+\newblock Scaling distributed machine learning with in-network
+  aggregation\allowbreak[C]//\allowbreak
 18th USENIX Symposium on Networked Systems Design and Implementation (NSDI).
 \newblock Berkeley, CA, USA: USENIX Association, 2021.
 
-\bibitem[Rajbhandari et~al.(2020)Rajbhandari, Rasley, Ruwase, and He]{rajbhandari2020zero}
+\bibitem[Rajbhandari et~al.(2020)Rajbhandari, Rasley, Ruwase, and
+  He]{rajbhandari2020zero}
 Rajbhandari~S, Rasley~J, Ruwase~O, et~al.
-\newblock Zero: Memory optimizations toward training trillion parameter models\allowbreak[J/OL].
+\newblock Zero: Memory optimizations toward training trillion parameter
+  models\allowbreak[J/OL].
 \newblock arXiv preprint arXiv:1910.02054, 2020.
 \newblock \url{https://arxiv.org/abs/1910.02054}.
 
-\bibitem[Huang et~al.(2019)Huang, Cheng, Bapna, Firat, Chen, Chen, Lee, Ngiam, Le, Wu, and Chen]{huang2019gpipe}
+\bibitem[Huang et~al.(2019)Huang, Cheng, Bapna, Firat, Chen, Chen, Lee, Ngiam,
+  Le, Wu, and Chen]{huang2019gpipe}
 Huang~Y, Cheng~Y, Bapna~A, et~al.
-\newblock Gpipe: Efficient training of giant neural networks using pipeline parallelism\allowbreak[C]//\allowbreak
+\newblock Gpipe: Efficient training of giant neural networks using pipeline
+  parallelism\allowbreak[C]//\allowbreak
 Advances in Neural Information Processing Systems.
 \newblock Red Hook, NY, USA: Curran Associates, Inc., 2019.
 
-\bibitem[Harlap et~al.(2019)Harlap, Narayanan, Phanishayee, Seshadri, Devanur, Ganger, and Gibbons]{harlap2019pipedream}
+\bibitem[Harlap et~al.(2019)Harlap, Narayanan, Phanishayee, Seshadri, Devanur,
+  Ganger, and Gibbons]{harlap2019pipedream}
 Harlap~A, Narayanan~D, Phanishayee~A, et~al.
-\newblock Pipedream: Fast and efficient pipeline parallel {DNN} training\allowbreak[C]//\allowbreak
+\newblock Pipedream: Fast and efficient pipeline parallel {DNN}
+  training\allowbreak[C]//\allowbreak
 Proceedings of the 27th ACM Symposium on Operating Systems Principles (SOSP).
 \newblock New York, NY, USA: Association for Computing Machinery, 2019.
 
 \bibitem[Liu et~al.(2024)Liu, Zaharia, and Abbeel]{liu2024ringattention}
 Liu~H, Zaharia~M, Abbeel~P.
-\newblock Ringattention with blockwise transformers for near-infinite context\allowbreak[C]//\allowbreak
+\newblock Ringattention with blockwise transformers for near-infinite
+  context\allowbreak[C]//\allowbreak
 International Conference on Learning Representations (ICLR).
 \newblock Vienna, Austria: OpenReview.net, 2024.
 
-\bibitem[Shoeybi et~al.(2019)Shoeybi, Patwary, Puri, LeGresley, Casper, and Catanzaro]{shoeybi2019megatron}
+\bibitem[Shoeybi et~al.(2019)Shoeybi, Patwary, Puri, LeGresley, Casper, and
+  Catanzaro]{shoeybi2019megatron}
 Shoeybi~M, Patwary~M, Puri~R, et~al.
-\newblock Megatron-lm: Training multi-billion parameter language models using model parallelism\allowbreak[J/OL].
+\newblock Megatron-lm: Training multi-billion parameter language models using
+  model parallelism\allowbreak[J/OL].
 \newblock arXiv preprint arXiv:1909.08053, 2019.
 \newblock \url{https://arxiv.org/abs/1909.08053}.
 
-\bibitem[Narayanan et~al.(2021)Narayanan, Shoeybi, Casper, LeGresley, Patwary, Korthikanti, Vainbrand, Kashinkunti, Bernauer, Catanzaro, Phanishayee, and Zaharia]{narayanan2021megatron}
+\bibitem[Narayanan et~al.(2021)Narayanan, Shoeybi, Casper, LeGresley, Patwary,
+  Korthikanti, Vainbrand, Kashinkunti, Bernauer, Catanzaro, Phanishayee, and
+  Zaharia]{narayanan2021megatron}
 Narayanan~D, Shoeybi~M, Casper~J, et~al.
-\newblock Efficient large-scale language model training on gpu clusters using megatron-lm\allowbreak[C]//\allowbreak
-Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC).
+\newblock Efficient large-scale language model training on gpu clusters using
+  megatron-lm\allowbreak[C]//\allowbreak
+Proceedings of the International Conference for High Performance Computing,
+  Networking, Storage and Analysis (SC).
 \newblock Piscataway, NJ, USA: IEEE Press, 2021.
 
-\bibitem[Ren et~al.(2021)Ren, Rajbhandari, Aminabadi, Ruwase, Yang, Zhang, Li, and He]{ren2021zerooffload}
+\bibitem[Ren et~al.(2021)Ren, Rajbhandari, Aminabadi, Ruwase, Yang, Zhang, Li,
+  and He]{ren2021zerooffload}
 Ren~J, Rajbhandari~S, Aminabadi~R~Y, et~al.
-\newblock Zero-offload: Democratizing billion-scale model training\allowbreak[C]//\allowbreak
+\newblock Zero-offload: Democratizing billion-scale model
+  training\allowbreak[C]//\allowbreak
 USENIX Annual Technical Conference (USENIX ATC).
 \newblock Berkeley, CA, USA: USENIX Association, 2021.
 
-\bibitem[Rajbhandari et~al.(2021)Rajbhandari, Ruwase, Rasley, Smith, and He]{rajbhandari2021zeroinfinity}
+\bibitem[Rajbhandari et~al.(2021)Rajbhandari, Ruwase, Rasley, Smith, and
+  He]{rajbhandari2021zeroinfinity}
 Rajbhandari~S, Ruwase~O, Rasley~J, et~al.
-\newblock Zero-infinity: Breaking the gpu memory wall for extreme scale deep learning\allowbreak[J/OL].
+\newblock Zero-infinity: Breaking the gpu memory wall for extreme scale deep
+  learning\allowbreak[J/OL].
 \newblock arXiv preprint arXiv:2104.07857, 2021.
 \newblock \url{https://arxiv.org/abs/2104.07857}.
 
-\bibitem[Rasley et~al.(2020)Rasley, Rajbhandari, Ruwase, and He]{rasley2020deepspeed}
+\bibitem[Rasley et~al.(2020)Rasley, Rajbhandari, Ruwase, and
+  He]{rasley2020deepspeed}
 Rasley~J, Rajbhandari~S, Ruwase~O, et~al.
-\newblock Deepspeed: System optimizations enable training deep learning models with over 100 billion parameters\allowbreak[C]//\allowbreak
-Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining (Tutorial).
+\newblock Deepspeed: System optimizations enable training deep learning models
+  with over 100 billion parameters\allowbreak[C]//\allowbreak
+Proceedings of the 26th ACM SIGKDD International Conference on Knowledge
+  Discovery \& Data Mining (Tutorial).
 \newblock New York, NY, USA: Association for Computing Machinery, 2020.
 
-\bibitem[Liao et~al.(2024)Liao, Sun, Yang, Xie, Chen, Yuan, Wu, and Wang]{liao2024lohan}
+\bibitem[Liao et~al.(2024)Liao, Sun, Yang, Xie, Chen, Yuan, Wu, and
+  Wang]{liao2024lohan}
 Liao~C, Sun~M, Yang~Z, et~al.
-\newblock Lohan: Low-cost high-performance framework to fine-tune 100b model on a consumer gpu\allowbreak[J/OL].
+\newblock Lohan: Low-cost high-performance framework to fine-tune 100b model on
+  a consumer gpu\allowbreak[J/OL].
 \newblock arXiv preprint arXiv:2403.06504, 2024.
 \newblock \url{https://arxiv.org/abs/2403.06504}.
 
 \bibitem[Yin et~al.(2025)Yin and Qian]{yin2025greedysnake}
 Yin~Y, Qian~X.
-\newblock Greedysnake: Accelerating ssd-offloaded llm training with efficient scheduling and optimizer step overlapping\allowbreak[J/OL].
+\newblock Greedysnake: Accelerating ssd-offloaded llm training with efficient
+  scheduling and optimizer step overlapping\allowbreak[J/OL].
 \newblock arXiv preprint arXiv:2512.17570, 2025.
 \newblock \url{https://arxiv.org/abs/2512.17570}.
 
-\bibitem[Hu et~al.(2022)Hu, Shen, Wallis, Allen-Zhu, Li, Wang, Wang, and Chen]{hu2021lora}
+\bibitem[Hu et~al.(2022)Hu, Shen, Wallis, Allen-Zhu, Li, Wang, Wang, and
+  Chen]{hu2021lora}
 Hu~E~J, Shen~Y, Wallis~P, et~al.
-\newblock Lora: Low-rank adaptation of large language models\allowbreak[C]//\allowbreak
+\newblock Lora: Low-rank adaptation of large language
+  models\allowbreak[C]//\allowbreak
 International Conference on Learning Representations (ICLR).
 \newblock Kigali, Rwanda: OpenReview.net, 2022.
 
-\bibitem[Biderman et~al.(2024)Biderman, Portes, Gonzalez~Ortiz, Paul, Greengard, Jennings, King, Havens, Chiley, and Geiping]{biderman2024loralearnsless}
+\bibitem[Biderman et~al.(2024)Biderman, Portes, Gonzalez~Ortiz, Paul,
+  Greengard, Jennings, King, Havens, Chiley, and
+  Geiping]{biderman2024loralearnsless}
 Biderman~D, Portes~J, Gonzalez~Ortiz~J~J, et~al.
 \newblock Lora learns less and forgets less\allowbreak[J].
 \newblock Transactions on Machine Learning Research, 2024.
@@ -128,29 +161,43 @@ Chen~T, Xu~B, Zhang~C, et~al.
 
 \bibitem[Dao et~al.(2022)Dao, Fu, Ermon, Rudra, and Re]{dao2022flashattention}
 Dao~T, Fu~D~Y, Ermon~S, et~al.
-\newblock Flashattention: Fast and memory-efficient exact attention with io-awareness\allowbreak[C]//\allowbreak
+\newblock Flashattention: Fast and memory-efficient exact attention with
+  io-awareness\allowbreak[C]//\allowbreak
 Advances in Neural Information Processing Systems.
 \newblock Red Hook, NY, USA: Curran Associates, Inc., 2022.
+
+\bibitem[Lian et~al.(2025)Lian, Tanaka, Ruwase, and
+  Zhang]{lian2025superoffload}
+Lian~X, Tanaka~M, Ruwase~O, et~al.
+\newblock Superoffload: Unleashing the power of large-scale llm training on
+  superchips\allowbreak[J/OL].
+\newblock arXiv preprint arXiv:2509.21271, 2025.
+\newblock \url{https://arxiv.org/abs/2509.21271}.
 
 \bibitem[{PyTorch Contributors}(2026)]{pytorch_module_hooks}
 {PyTorch Contributors}.
 \newblock torch.nn.module\allowbreak[EB/OL].
 \newblock 2026.
-\newblock \url{https://docs.pytorch.org/docs/stable/generated/torch.nn.Module.html}.
+\newblock
+  \url{https://docs.pytorch.org/docs/stable/generated/torch.nn.Module.html}.
 
-\bibitem[Paszke et~al.(2019)Paszke, Gross, Massa, Lerer, Bradbury, Chanan, Killeen, Lin, Gimelshein, Antiga, et~al.]{paszke2019pytorch}
+\bibitem[Paszke et~al.(2019)Paszke, Gross, Massa, Lerer, Bradbury, Chanan,
+  Killeen, Lin, Gimelshein, Antiga, et~al.]{paszke2019pytorch}
 Paszke~A, Gross~S, Massa~F, et~al.
-\newblock Pytorch: An imperative style, high-performance deep learning library\allowbreak[C]//\allowbreak
+\newblock Pytorch: An imperative style, high-performance deep learning
+  library\allowbreak[C]//\allowbreak
 Advances in Neural Information Processing Systems.
 \newblock Red Hook, NY, USA: Curran Associates, Inc., 2019.
 
-\bibitem[Yang et~al.(2024)Yang, Yang, Zhang, Hui, Zheng, Yu, Li, Liu, et~al.]{qwen25techreport}
+\bibitem[Yang et~al.(2024)Yang, Yang, Zhang, Hui, Zheng, Yu, Li, Liu,
+  et~al.]{qwen25techreport}
 Yang~A, Yang~B, Zhang~B, et~al.
 \newblock Qwen2.5 technical report\allowbreak[J/OL].
 \newblock arXiv preprint arXiv:2412.15115, 2024.
 \newblock \url{https://arxiv.org/abs/2412.15115}.
 
-\bibitem[Zeng et~al.(2022)Zeng, Liu, Du, Wang, Lai, Ding, Yang, Xu, Zheng, Xia, et~al.]{zeng2022glm130b}
+\bibitem[Zeng et~al.(2022)Zeng, Liu, Du, Wang, Lai, Ding, Yang, Xu, Zheng, Xia,
+  et~al.]{zeng2022glm130b}
 Zeng~A, Liu~X, Du~Z, et~al.
 \newblock Glm-130b: An open bilingual pre-trained model\allowbreak[J/OL].
 \newblock arXiv preprint arXiv:2210.02414, 2022.
